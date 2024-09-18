@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "target": "es2015",
+        "module": "commonjs",
+        "lib": ["es6", "DOM"]
+    },
+    "exclude": [
+        "coverage",
+        "node_modules"
+    ]
+}

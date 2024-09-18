@@ -1,0 +1,29 @@
+{
+  "name": "typescript-pk-pass-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "create-pass": "node --env-file=.env -r ts-node/register ./src/apple-wallet-sign.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pkpass",
+    "pk-pass",
+    "apple-wallet"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "node-forge": "^1.3.1",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/archiver": "^6.0.2",
+    "@types/node": "^20.16.5",
+    "@types/node-forge": "^1.3.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
